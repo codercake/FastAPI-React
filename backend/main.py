@@ -15,7 +15,7 @@ class Fruits(BaseModel):
 app=FastAPI(debug=True)
 
 origins=[
-    "http://localhost:3000"
+    "http://localhost:5173"
 ]
 
 #CORS prohibits unauthorized websites, endpoints, servers from accessing your API
